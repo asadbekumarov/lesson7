@@ -1,6 +1,6 @@
 import React from "react";
 import Careers from "../../assets/images/career/image.png";
-function Career() {
+function CareerCom() {
   return (
     <>
       <main>
@@ -29,4 +29,4 @@ function Career() {
   );
 }
 
-export default Career;
+export default CareerCom;

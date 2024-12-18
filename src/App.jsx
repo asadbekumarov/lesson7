@@ -1,21 +1,24 @@
 import React from "react";
-import Hero from "./components/hero/Hero";
 import Header from "./components/header/Header";
-import Service from "./components/service/Service";
-import Company from "./components/company/Company";
-import Career from "./components/career/Career";
 import Footer from "./components/footer/Footer";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Company from "./pages/company/Company";
+import Service from "./pages/services/Service";
+import Career from "./pages/career/Career";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Hero />
-      <Service />
-      <Company />
-      <Career />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="company" element={<Company />} />
+        <Route path="service" element={<Service />} />
+        <Route path="career" element={<Career />} />
+      </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

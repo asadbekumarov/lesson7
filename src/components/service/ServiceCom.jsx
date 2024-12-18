@@ -2,7 +2,7 @@ import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Bt from "../../assets/images/hero-img/btn.png";
 
-function Service() {
+function ServiceCom() {
   return (
     <>
       <main className="bg-[#ffe6d2]">
@@ -50,4 +50,4 @@ function Service() {
   );
 }
 
-export default Service;
+export default ServiceCom;

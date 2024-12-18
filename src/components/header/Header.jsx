@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../assets/images/header/Logo.svg";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
@@ -11,22 +12,19 @@ function Header() {
             <div>
               <ul className="flex gap-8">
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
-                  Home
+                  <Link to={"/"}>Home</Link>
                 </li>
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
-                  Service
+                  <Link to={"/service"}>Service</Link>
                 </li>
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
-                  Company
+                  <Link to={"/company"}>Company</Link>
                 </li>
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
-                  Career
+                  <Link to={"/career"}>Career</Link>
                 </li>
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
                   Blog
-                </li>
-                <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
-                  Contact us
                 </li>
                 <li className="text-[#a7a8af] font-[Poppins] font-medium text-base hover:text-white cursor-pointer	">
                   Contact us

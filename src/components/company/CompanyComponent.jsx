@@ -3,7 +3,7 @@ import Img from "../../assets/images/company/Shapes (1).png";
 import Humans from "../../assets/images/company/image.png";
 import Shapes from "../../assets/images/company/Shapes (2).png";
 
-export default function Company() {
+export default function CompanyComponent() {
   return (
     <>
       <main>
