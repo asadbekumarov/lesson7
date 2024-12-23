@@ -8,7 +8,7 @@ import Logoipsum3 from "../../assets/images/hero-img/Logo3.png";
 import Logoipsum4 from "../../assets/images/hero-img/Logo4.png";
 import Logoipsum5 from "../../assets/images/hero-img/Logo5.png";
 import Bt from "../../assets/images/hero-img/btn.png";
-
+import { Link } from "react-router-dom";
 function Hero() {
   return (
     <>
@@ -25,7 +25,7 @@ function Hero() {
                 can too with 1 week and a good attitude.
               </p>
               <button className="max-w-[219px] relative bg-[#444cfc] flex gap-4 py-5 pl-8 font-[Poppins] text-white text-base leading-6">
-                Request Quote
+                <Link to={"requestQuote "}>Request Quote</Link>
                 <IoIosArrowRoundForward className="text-lg pr-8 text-white" />
                 <img className="absolute left-0 top-0" src={Bt} alt="bt-img" />
               </button>

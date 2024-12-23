@@ -8,5 +8,4 @@ function Service() {
     </main>
   );
 }
-
 export default Service;
