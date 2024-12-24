@@ -16,7 +16,7 @@ const Detail = () => {
   }, [id]);
   console.log(data);
   return (
-    <div className="">
+    <div>
       <div className="max-w-[1280px] px-4 m-auto">
         <div className="bg-[#efefef] rounded-lg mt-28 mb-28 p-5">
           <h2 className="text-2xl font-semibold">{data?.title}</h2>
@@ -50,6 +50,34 @@ const Detail = () => {
                 <button className=" text-black p-8 text-[60px]">+</button>
               </div>
               <div className="flex flex-col gap-3">
+                <div className="rating">
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    className="mask mask-star-2 bg-orange-400"
+                    defaultChecked
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                  <input
+                    type="radio"
+                    name="rating-2"
+                    className="mask mask-star-2 bg-orange-400"
+                  />
+                </div>
                 <button className="bg-slate-600 text-white py-2 px-8 rounded-md">
                   1 klikda xarid qilish
                 </button>

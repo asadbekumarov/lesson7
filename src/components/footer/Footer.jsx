@@ -1,11 +1,11 @@
 import React from "react";
-import Shapes from "../../assets/images/footer/Shapes.png";
-import Shapes2 from "../../assets/images/footer/Shapes2.png";
+import Shapes from "../../assets/images/footer/shapes.png";
+import Shapes2 from "../../assets/images/footer/shapes2.png";
 import Logo from "../../assets/images/footer/Logo.svg";
 import Facebook from "../../assets/images/footer/facebook.svg";
 import twitter from "../../assets/images/footer/twitter.svg";
 import Instagram from "../../assets/images/footer/instagram.svg";
-import Linkedin from "../../assets/images/footer/linkedin.svg";
+import Linkedin from "../../assets/images/footer/Linkedin.svg";
 
 function Footer() {
   return (

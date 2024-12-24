@@ -60,7 +60,7 @@ export default function CompanyComponent() {
                   }}
                   src={item.thumbnail}
                   alt={item.title}
-                  className="mb-4 p-1 bg-[#232536] rounded-md"
+                  className="mb-4 p-1 bg-[#232536] rounded-md scale-95 cursor-pointer hover:scale-100 transition-transform"
                 />
                 <div className="flex justify-start flex-col items-start">
                   <p className="font-[Poppins] text-start font-medium text-lg">

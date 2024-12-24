@@ -1,5 +1,5 @@
 import React from "react";
-import Careers from "../../assets/images/career/image.png";
+import Careers from "@/assets/images/career/image.png";
 function CareerCom() {
   return (
     <>
