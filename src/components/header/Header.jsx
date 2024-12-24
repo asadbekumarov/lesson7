@@ -83,12 +83,12 @@ function Header() {
                 </li>
                 <button className="flex items-center gap-2 text-[#FFD3AF] font-[Poppins] font-medium text-base hover:text-[#ffb06f]">
                   <NavLink
-                    to={"/career"}
+                    to={"/cloneproject"}
                     className={({ isActive }) =>
                       isActive ? "text-white" : "text-[#a7a8af]"
                     }
                   >
-                    Clone project{" "}
+                    Clone project
                   </NavLink>
                   <IoIosArrowRoundForward className="text-lg text-white" />
                 </button>

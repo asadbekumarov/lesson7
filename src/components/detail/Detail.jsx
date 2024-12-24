@@ -8,7 +8,6 @@ const Detail = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    console.log("Fetching product with ID:", id);
     axios;
     request
       .get(`/products/${id}`)
