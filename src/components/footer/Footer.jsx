@@ -5,7 +5,7 @@ import Logo from "../../assets/images/footer/Logo.svg";
 import Facebook from "../../assets/images/footer/facebook.svg";
 import twitter from "../../assets/images/footer/twitter.svg";
 import Instagram from "../../assets/images/footer/instagram.svg";
-import Linkedin from "../../assets/images/footer/Linkedin.svg";
+import linkedin from "../../assets/images/footer/linkedin.svg";
 
 function Footer() {
   return (
@@ -117,7 +117,7 @@ function Footer() {
                 <img className="w-4" src={Facebook} alt="" />
                 <img className="w-4" src={twitter} alt="" />
                 <img className="w-4" src={Instagram} alt="" />
-                <img className="w-4" src={Linkedin} alt="" />
+                <img className="w-4" src={linkedin} alt="" />
               </div>
             </div>
           </div>

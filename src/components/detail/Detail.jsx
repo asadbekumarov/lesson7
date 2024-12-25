@@ -78,6 +78,7 @@ const Detail = () => {
                     className="mask mask-star-2 bg-orange-400"
                   />
                 </div>
+                
                 <button className="bg-slate-600 text-white py-2 px-8 rounded-md">
                   1 klikda xarid qilish
                 </button>
@@ -89,6 +90,7 @@ const Detail = () => {
                   <h3 className="text-xl">Bu hafta 20 kishi sotib oldi</h3>
                 </div>
               </div>
+              
             </div>
           </div>
           <p className="text-2xl font-medium">{data?.description}</p>
